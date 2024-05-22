@@ -1,0 +1,40 @@
+{
+    "header": {
+      "home": "Inicio",
+      "aboutMe": "Acerca de Mi",
+      "services": "Servicios",
+      "portfolio": "Portafolio",
+      "testimonials": "Testimonios",
+      "blog": "Blog",
+      "contactMe": "Contáctame"
+    },
+    "inicio": {
+      "hello": "Hola, soy",
+      "name": "Lina Viveros"
+    },
+    "portfolio": {
+      "title": "Portafolio",
+      "project1": "Sistema que elimina, agrega y modifica recetas, verificando si existen ingredientes para la receta y proporcionando la descripción final.",
+      "project2": "Sistema de gestión de inventario donde se puede ver el tipo de producto, nombre del producto y precio del producto.",
+      "project3": "Interfaz gráfica de estructuras de datos."
+    },
+    "services": {
+      "title": "Estos son los lenguajes y herramientas que he estado aprendiendo a lo largo de mis semestres académicos"
+    },
+    "testimonials": {
+      "title": "En este espacio encontrarás los testimonios de mis docentes respecto a mi desempeño en las diferentes áreas de la programación que he cursado en los semestres."
+    },
+    "blog": {
+      "title": "Más sobre mí",
+      "description": "Además de programar, me gusta cantar y bailar en los carnavales que se celebran en mi ciudad..."
+    },
+    "contactMe": {
+      "title": "Ponerse en contacto",
+      "description": "En este espacio, puedes dejarme saber si tienes alguna crítica, comentario, sugerencia o duda. Estoy dispuesta a escuchar tu voz y saber qué piensas sobre mí y mi trabajo.",
+      "name": "Nombre",
+      "email": "Correo Electrónico",
+      "message": "Mensaje",
+      "sendMessage": "Enviar Mensaje"
+    }
+  }
+  

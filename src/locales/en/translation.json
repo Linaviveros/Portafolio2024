@@ -1,0 +1,40 @@
+{
+    "header": {
+      "home": "Home",
+      "aboutMe": "About Me",
+      "services": "Services",
+      "portfolio": "Portfolio",
+      "testimonials": "Testimonials",
+      "blog": "Blog",
+      "contactMe": "Contact Me"
+    },
+    "inicio": {
+      "hello": "Hello, I am",
+      "name": "Lina Viveros"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "project1": "System that deletes, adds and modifies recipes, it checks if there are existing ingredients for the recipe and also gives the final description of what this same will have.",
+      "project2": "Inventory management system where you can see the type of product, product name and product price.",
+      "project3": "Graphical interface of data structure."
+    },
+    "services": {
+      "title": "These are languages and tools that I have been learning throughout my academic semesters"
+    },
+    "testimonials": {
+      "title": "In this space you will find the testimonials of my teachers regarding my performance in the different areas of programming that I have seen in the semesters taken"
+    },
+    "blog": {
+      "title": "Blog",
+      "description": "Blog description."
+    },
+    "contactMe": {
+      "title": "Contact Me",
+      "description": "Send me a message and I will respond as soon as possible.",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "sendMessage": "Send message"
+    }
+  }
+  
