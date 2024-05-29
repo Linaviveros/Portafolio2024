@@ -15,15 +15,20 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #991A1A;
+  --secondary-color: #FEEEB8;
+  --text-color: #000000;
+  --background-color: #FFFFFF;
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--primary-color);
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--secondary-color);
 }
 
 body {
@@ -32,6 +37,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 h1 {
@@ -70,6 +77,7 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -124,15 +132,20 @@ section {
   }
 }
 
-@keyframes slideBackground {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+.header {
+  background-color: var(--background-color);
 }
 
+.header a {
+  color: var(--primary-color);
+}
+
+/* Sobrescribimos los estilos en modo oscuro */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #991A1A;
+    --secondary-color: #FEEEB8;
+    --text-color: #000000;
+    --background-color: #FFFFFF;
+  }
+}

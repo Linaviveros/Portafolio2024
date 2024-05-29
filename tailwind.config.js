@@ -20,5 +20,11 @@ module.exports = {
       },
     },
   },
+  darkMode: 'class', // o 'media' si prefieres detectar automáticamente el modo oscuro
+  variants: {
+    extend: {
+      // Configura tus variantes aquí si necesitas
+    },
+  },
   plugins: [],
-}
+};

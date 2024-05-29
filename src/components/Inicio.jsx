@@ -5,7 +5,7 @@ import imagenInicio from '../assets/imagen-inicio.jpg';
 
 const Inicio = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-white relative">
+    <div className="min-h-screen flex items-center justify-center bg-white relative dark:bg-white">
       <motion.div
         className="absolute inset-0 z-0 animate-gradient"
         initial={{ opacity: 0 }}
@@ -19,20 +19,20 @@ const Inicio = () => {
         transition={{ duration: 1 }}
       >
         <div className="text-left">
-          <h1 className="text-4xl font-didact text-[#991A1A]">Hola, soy</h1>
-          <h2 className="text-5xl font-didact text-black">Lina Viveros</h2>
+          <h1 className="text-4xl font-didact text-[#991A1A] dark:text-[#991A1A]">Hola, soy</h1>
+          <h2 className="text-5xl font-didact text-black dark:text-black">Lina Viveros</h2>
           <div className="mt-4 flex space-x-4">
-            <a href="https://www.facebook.com/Lina Viveros" target="_blank" rel="noopener noreferrer">
-              <FaFacebook className="text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
+            <a href="https://www.facebook.com/LinaViveros" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-[#991A1A] dark:text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
             </a>
             <a href="https://www.instagram.com/lina__vm" target="_blank" rel="noopener noreferrer">
-              <FaInstagram className="text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
+              <FaInstagram className="text-[#991A1A] dark:text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
             </a>
             <a href="https://github.com/Linaviveros" target="_blank" rel="noopener noreferrer">
-              <FaGithub className="text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
+              <FaGithub className="text-[#991A1A] dark:text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
             </a>
             <a href="https://wa.me/573145149674" target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp className="text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
+              <FaWhatsapp className="text-[#991A1A] dark:text-[#991A1A] w-8 h-8 hover:text-black transition duration-300" />
             </a>
           </div>
         </div>

@@ -7,12 +7,12 @@ import imagen3 from '../assets/imagen3.jpg';  // Cambia los nombres según corre
 
 const Blog = () => {
   return (
-    <div className="bg-white p-8 relative overflow-hidden min-h-screen flex flex-col items-center justify-center">
+    <div className="bg-white dark:bg-white p-8 relative overflow-hidden min-h-screen flex flex-col items-center justify-center">
       <div className="max-w-3xl text-justify mb-8">
-        <h2 className="text-[#4D0707] text-3xl font-didact mb-4 text-center">
+        <h2 className="text-[#4D0707] dark:text-[#4D0707] text-3xl font-didact mb-4 text-center">
           Más sobre mí
         </h2>
-        <p className="text-lg mb-4">
+        <p className="text-lg mb-4 dark:text-black">
           Además de programar, me gusta cantar y bailar en los carnavales que se celebran en mi ciudad, y para ser más específica, en un pueblo de mi región donde reside la gran mayoría de mi familia. Lo hago todos los años y me divierto bastante. Si no hubiera elegido esta carrera, me encantaría estudiar gastronomía. Soy una persona muy alegre y extrovertida. Disfruto explorando diferentes lugares de mi ciudad y los paisajes que estos ofrecen.
         </p>
       </div>

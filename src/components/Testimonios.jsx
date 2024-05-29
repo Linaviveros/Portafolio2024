@@ -27,8 +27,8 @@ const starIcons = (count) => {
 
 const Testimonios = () => {
   return (
-    <div className="bg-white p-8">
-      <h2 className="text-center text-xl font-didact mb-8">
+    <div className="bg-white p-8 dark:bg-white">
+      <h2 className="text-center text-xl font-didact mb-8 text-[#4D0707] dark:text-[#4D0707]">
         En este espacio encontrarás los testimonios de mis docentes con respecto a mi desempeño en las diferentes áreas de la programación que he visto en los semestres cursados
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -38,11 +38,11 @@ const Testimonios = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.2 }}
-            className="bg-gray-100 p-6 rounded-lg shadow-lg"
+            className="bg-gray-100 p-6 rounded-lg shadow-lg dark:bg-gray-100"
           >
-            <p className="mb-4">"{testimonio.mensaje}"</p>
+            <p className="mb-4 text-justify">"{testimonio.mensaje}"</p>
             <div className="text-right">
-              <p className="text-lg font-bold">{testimonio.nombre}</p>
+              <p className="text-lg font-bold text-black dark:text-black">{testimonio.nombre}</p>
               <div className="text-yellow-500">
                 {starIcons(testimonio.estrellas)}
               </div>
@@ -55,4 +55,3 @@ const Testimonios = () => {
 };
 
 export default Testimonios;
-

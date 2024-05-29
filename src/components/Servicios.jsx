@@ -15,15 +15,15 @@ const servicios = [
 
 const Servicios = () => {
   return (
-    <div className="bg-white p-8">
-      <h2 className="text-center text-xl font-didact mb-8">
+    <div className="bg-white p-8 dark:bg-white">
+      <h2 className="text-center text-xl font-didact mb-8 text-[#4D0707] dark:text-[#4D0707]">
         Estos son lenguajes y herramientas en las que he estado aprendiendo a lo largo de mis semestres académicos
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {servicios.map((servicio, index) => (
-          <div key={index} className="bg-[#F9DD4C] p-6 rounded-lg flex flex-col items-center justify-center shadow-lg">
+          <div key={index} className="bg-[#F9DD4C] p-6 rounded-lg flex flex-col items-center justify-center shadow-lg dark:bg-[#F9DD4C]">
             {servicio.icon}
-            <span className="mt-4 text-lg font-didact">{servicio.name}</span>
+            <span className="mt-4 text-lg font-didact text-black dark:text-black">{servicio.name}</span>
           </div>
         ))}
       </div>
